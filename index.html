@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDACTER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <label for="textarea">Enter text below:</label><br>
+        <textarea 
+        name="original"
+        id="original"
+        placeholder="Enter your text here"
+        ></textarea><br>
+
+        <label for="textarea">Specify the words to be redacted</label><br>
+        <textarea 
+        name="redact"
+        id="redact"
+        placeholder="****"></textarea><br>
+
+<label for="textarea"></label><br>
+<textarea
+name="words"
+id="words"></textarea>
+<br>
+
+        
+    </form>
+
+    <button type="submit" id="redactnow">REDACT NOW</button>
+    <script src="script.js"></script>
+</body>
+</html>
